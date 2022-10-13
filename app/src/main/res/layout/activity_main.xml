@@ -89,6 +89,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="OnOpenInGoogleMaps"
                 android:text="Open in Google Maps" />
+
         </LinearLayout>
     </LinearLayout>
 
