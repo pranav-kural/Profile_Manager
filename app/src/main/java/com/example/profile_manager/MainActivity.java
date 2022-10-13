@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void OnOpenInGoogleMaps (View view) {
-        EditText teamAddress = (EditText) findViewById(R.id.teamAddressField);
+        EditText teamAddress = (EditText) findViewById(R.id.Team_Address_Field);
 
         // Create a Uri from an intent string. Use the result to create an Intent.
         Uri gmmIntentUri = Uri.parse("http://maps.google.co.in/maps?q="+teamAddress.getText());
@@ -33,11 +33,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void OnSetAvatarButton(View view) {
+    /*public void OnSetAvatarButton(View view) {
         //Application Context and Activity
         Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
         startActivityForResult(intent,0);
-    }
+    }*/
 
 
 
